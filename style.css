@@ -1,0 +1,57 @@
+body {
+            background-image: url(images.jpeg);
+    user-select: none;
+    list-style: none;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.love {
+    color: red;
+    /* background: linear-gradient(to bottom, hsl(0 0% 93%) 0%, */
+            /* gold 555%); */
+}
+
+.btn:hover {
+    color: wheat;
+    background-color: red;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5%;
+
+}
+.cho{
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(25px);
+/* background: transparent; */
+padding: 40px;
+
+}
+
+.cho2{
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(25px);
+    /* background: transparent; */
+padding: 40px;
+    }
+    
+
+.btn {
+    background: linear-gradient(to right, #4e74a4, #456990);
+    color: #fff;
+    padding: 2px 5px;
+    color: var(--bs-red);
+    background: pink
+}
+
+.result {
+    /* background: linear-gradient(to bottom, hsl(0 0% 93%) 0%,
+            gold 343%); */
+    font-weight: bolder;
+    text-transform: uppercase;
+    /* width: 100%; */
+
+}

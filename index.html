@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.2/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <div class=" cho container text-center mx-auto my-5 shadow-lg">
+        <div class="cho2  my-2 col-12 my-4 mx-auto text-center shadow-lg form-cont ">
+            <h2 class="love">Love Calculator</h2>
+
+            <input type="text" class=" col-lg-5 p-2 rounded-2 form-control my-2 " id="nameInput1"
+                oninput="updateName(1)" placeholder="First Lover">
+            <div class="result mx-auto text-danger" id="resultDiv"></div>
+                 
+            <input type="text" class=" col-lg-12  col-sm-12 p-2 form-control my-2 rounded-2  " id="nameInput2"
+                oninput="updateName(2)" placeholder="Second Lover">
+        <div class=" cal btn btn-sm my-2 w-50 shadow-lg form-control" onclick="calculateLove()"> Check</div>
+
+        </div>
+    </div>
+
+<script src="scripts.js"></script>
+</body>
+
+</html>
